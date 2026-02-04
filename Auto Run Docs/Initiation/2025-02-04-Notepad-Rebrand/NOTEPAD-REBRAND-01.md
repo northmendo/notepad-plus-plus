@@ -26,9 +26,10 @@ This phase establishes the foundational rebranding from "Notepad++" to "Notepad+
   - Edit line 3659 - replace forum URL or remove the forum menu item entirely
   - Edit line 3679 - replace downloads URL with your GitHub releases URL
 
-- [ ] Update donation URL in Notepad_plus.cpp:
+- [x] Update donation URL in Notepad_plus.cpp:
   - Edit `/PowerEditor/src/Notepad_plus.cpp` line 7789
   - Replace `https://notepad-plus-plus.org/donate/` with your GitHub sponsorship page or remove if not applicable
+  - **Note:** Removed donation URL from quote since no sponsorship page is configured
 
 - [ ] Update About box home page URL:
   - Edit `/PowerEditor/src/WinControls/AboutDlg/AboutDlg.cpp` line 144
