@@ -3633,12 +3633,12 @@ void Notepad_plus::command(int id)
 
 		case IDM_HOMESWEETHOME :
 		{
-			::ShellExecute(NULL, L"open", L"https://notepad-plus-plus.org/", NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, L"open", L"https://github.com/northmendo/notepad-plus-plus", NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 		case IDM_PROJECTPAGE :
 		{
-			::ShellExecute(NULL, L"open", L"https://github.com/notepad-plus-plus/notepad-plus-plus/", NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, L"open", L"https://github.com/northmendo/notepad-plus-plus", NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 
@@ -3656,7 +3656,7 @@ void Notepad_plus::command(int id)
 
 		case IDM_FORUM:
 		{
-			::ShellExecute(NULL, L"open", L"https://community.notepad-plus-plus.org/", NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, L"open", L"https://github.com/northmendo/notepad-plus-plus/issues", NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 
@@ -3676,7 +3676,7 @@ void Notepad_plus::command(int id)
 
 				if (res == IDYES)
 				{
-					::ShellExecute(NULL, L"open", L"https://notepad-plus-plus.org/downloads/", NULL, NULL, SW_SHOWNORMAL);
+					::ShellExecute(NULL, L"open", L"https://github.com/northmendo/notepad-plus-plus/releases", NULL, NULL, SW_SHOWNORMAL);
 				}
 			}
 			else
