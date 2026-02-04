@@ -1348,7 +1348,7 @@ BEGIN
         MENUITEM "Visit GitHub",                   IDM_GITHUB
         MENUITEM SEPARATOR
         MENUITEM "Debug Info...",                  IDM_DEBUGINFO
-        MENUITEM "About Notepad++",                IDM_ABOUT
+        MENUITEM "About Notepad+-",                IDM_ABOUT
     END
 
     MENUITEM "＋",               IDM_FILE_NEW, HELP

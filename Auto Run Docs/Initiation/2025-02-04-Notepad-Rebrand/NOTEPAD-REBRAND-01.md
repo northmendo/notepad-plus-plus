@@ -36,9 +36,14 @@ This phase establishes the foundational rebranding from "Notepad++" to "Notepad+
   - Replace `L"https://notepad-plus-plus.org/"` with your GitHub repository URL
   - **Note:** Changed to use INFO_URL constant from resource.h for consistency
 
-- [ ] Update menu resource strings for Help menu:
+- [x] Update menu resource strings for Help menu:
   - Edit `/PowerEditor/src/Notepad_plus.rc` around lines 1343-1351
   - Update "Notepad+- Home" and "Notepad+- Project Page" URLs
   - Update "Notepad+- Online User Manual" URL if applicable
   - Update "Notepad+- Community (Forum)" or remove if not using a forum
   - Change "About Notepad++" to "About Notepad+-" (IDM_ABOUT)
+  - **Notes:**
+    - Changed "About Notepad++" to "About Notepad+-" in Notepad_plus.rc:1351
+    - Updated Online User Manual URL from `https://npp-user-manual.org/` to `https://github.com/northmendo/notepad-plus-plus/blob/master/README.md` in NppCommands.cpp:3647
+    - Help menu labels already showed "Notepad+-" branding (lines 1343-1346)
+    - URLs for Home, Project Page, and Forum already pointed to GitHub repository (from earlier task)

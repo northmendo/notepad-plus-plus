@@ -3644,7 +3644,7 @@ void Notepad_plus::command(int id)
 
 		case IDM_ONLINEDOCUMENT:
 		{
-			::ShellExecute(NULL, L"open", L"https://npp-user-manual.org/", NULL, NULL, SW_SHOWNORMAL);
+			::ShellExecute(NULL, L"open", L"https://github.com/northmendo/notepad-plus-plus/blob/master/README.md", NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 
