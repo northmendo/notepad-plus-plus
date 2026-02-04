@@ -17,9 +17,9 @@ This phase establishes the foundational rebranding from "Notepad++" to "Notepad+
   - Verify FileDescription, InternalName, OriginalFilename, and ProductName all say "Notepad+-"
   - Note: These may already be branded based on the discovery conversation - verify consistency
 
-- [ ] Update window class name in Notepad_plus_Window.h:
-  - Verify line 69 of `/PowerEditor/src/Notepad_plus_Window.h` has window class name as "Notepad+-"
-  - This should already be branded based on discovery - confirm and ensure consistency
+- [x] Update window class name in Notepad_plus_Window.h:
+  - Verified line 69 of `/PowerEditor/src/Notepad_plus_Window.h` has window class name as "Notepad+-"
+  - Confirmed consistency: the `_className` is properly used in `Notepad_plus_Window.cpp` at lines 78 and 101 for RegisterClass and CreateWindowEx calls
 
 - [ ] Update URLs in NppCommands.cpp:
   - Edit `/PowerEditor/src/NppCommands.cpp` line 3636 - replace `https://notepad-plus-plus.org/` with your GitHub URL
