@@ -10,7 +10,7 @@ This phase establishes the foundational rebranding from "Notepad++" to "Notepad+
   - Ensure NOTEPAD_PLUS_VERSION reflects "Notepad+-" branding
   - Keep VERSION_MAJOR, VERSION_MINOR, VERSION_BUILD, and VERSION_VALUE appropriate for the fork
 
-- [ ] Update version resource block in Notepad_plus.rc:
+- [x] Update version resource block in Notepad_plus.rc:
   - Edit `/PowerEditor/src/Notepad_plus.rc` version info block (around lines 28-55)
   - Update CompanyName to your name/organization
   - Update LegalCopyright to reflect your fork (e.g., "Copyleft 1998-2023 by Don HO, Modified 2025 by [Your Name]")
